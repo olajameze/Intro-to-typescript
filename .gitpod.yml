@@ -1,5 +1,11 @@
+ports:
+  - port: 3000
+    onOpen: open-preview
+
 vscode:
   extensions:
     - esbenp.prettier-vscode
     - coenraads.bracket-pair-colorizer
     - eamodio.gitlens
+
+  
